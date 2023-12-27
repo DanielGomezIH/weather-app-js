@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/weather-app-js/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Weather App</title>
+    <script type="module" crossorigin src="/weather-app-js/assets/index-5aefe1d0.js"></script>
+    <link rel="stylesheet" href="/weather-app-js/assets/index-45fcb7b7.css">
+  </head>
+  <body>
+    <div id="app">
+      <main class="card">
+        <div class="search">
+          <input type="text" placeholder="Enter city name" spellcheck="false" />
+          <button><img src="/weather-app-js/assets/search.png" alt="Search" /></button>
+        </div>
+        <div class="error" aria-label="Error Message">
+          <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+          <img
+            src="/weather-app-js/assets/rain.png"
+            class="weather-icon"
+            alt="Rainy Weather"
+          />
+          <h1 class="temp">22°c</h1>
+          <h2 class="city">New York</h2>
+          <div class="details">
+            <div class="col">
+              <img src="/weather-app-js/assets/humidity.png" alt="Humidity Icon" />
+              <div>
+                <p class="humidity">50%</p>
+                <p>Humidity</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="/weather-app-js/assets/wind.png" alt="Wind Icon" />
+              <div>
+                <p class="wind">15 km/h</p>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    
+  </body>
+</html>
